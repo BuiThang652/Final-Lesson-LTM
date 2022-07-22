@@ -1,0 +1,50 @@
+.support {
+    border-radius: 10px;
+    background: #fff;
+    margin:15px 0;
+    padding-bottom: 20px;
+}
+
+.support h2 {
+    line-height: 100px;
+    text-align: center;
+}
+
+.support p {
+    text-align: center;
+}
+
+.sp-form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+.sp-form-text {
+    padding: 5px;
+}
+
+.sp-form .sp-form-text label {
+    line-height: 30px;
+}
+
+.sp-form .sp-form-text input {
+    width: 500px;
+    padding: 10px;
+}
+
+.sp-form .sp-form-text textarea {
+    width: 500px;
+}
+
+.sp-form .btn {
+    padding: 10px 25px;
+    margin: 5px;
+    background: #0487d9;
+    border: none;
+    color: #fff;
+}
+
+.sp-form .btn:hover {
+    color: #F2C84B;
+    background: #04B2D9;
+}

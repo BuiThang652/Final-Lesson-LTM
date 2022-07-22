@@ -1,0 +1,21 @@
+.route {
+    border-radius: 10px;
+    background: #fff;
+    margin:15px 0;
+}
+
+.route h2 {
+    text-align: center;
+    line-height: 100px;
+}
+
+.list-route {
+    list-style: none;
+    padding:30px;
+    margin: 0;
+}
+
+.list-route .list-route1 {
+    list-style: disc;
+    margin-left: 50px;
+}

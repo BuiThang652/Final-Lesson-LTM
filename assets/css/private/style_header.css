@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Teko:wght@600&display=swap');
+
+.head {
+    background-color: #0487D9;
+    position: fixed;
+    top: 0;
+    z-index: 3;
+}
+
+/* header top */
+.head-top {
+    height: 60px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.head-top-logo a {
+    font-family: 'Teko', sans-serif;
+    color: #F2C84B;
+    font-size: 30px;
+    padding: 8.5px 20px;
+}
+
+.head-top-search input {
+    padding: 8px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.info-lg {
+    width: 260px;
+    height: 60px;
+    display: flex;
+}
+
+.info-lg p {    
+    color: #fff;
+    font-size: 20px;
+    text-align: right;
+    padding:0 20px;
+}
+
+.info-lg p:hover{
+    cursor: pointer;
+    color: #F2C84B;
+}
+
+
+/* header bottom */
+.head-bot {
+    height: 60px;
+}
+
+.head-bot .nav {
+    display: flex;
+    list-style: none;
+}
+
+.nav li {
+    position: relative;
+}
+
+.nav li a {
+    color:#fff;
+    line-height: 60px;
+    padding: 0 20px;
+    display: inline-block;
+
+}
+
+.nav > li:hover > a,
+.subnav > li:hover > a,
+.subnav1 > li:hover > a{
+    color: #F2C84B;
+    background: #04B2D9;
+}
+
+.subnav {
+    display: none;
+    position: absolute;
+    top:61px;
+    width: 120px;
+    background: #0487D9;
+    list-style: none;
+}
+
+.subnav li {
+    position: relative;
+}
+
+.subnav li a {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+}
+
+.subnav1 {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 120px;
+    width: 120px;
+    background: #0487D9;
+    list-style: none;
+}
+
+.subnav1 li a {
+    border-left: 1px solid #ccc;
+}
+.nav li:hover .subnav,
+.subnav li:hover .subnav1 {
+    display: block;
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ul {
+    padding: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #0487D9;
+}
+
+.main {
+    padding-top: 151px;
+}
+
+/* chiều ngang 1200 - căn giữa */
+.grid {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* chiều ngang toàn bộ màn hình */
+.grid__full-width {
+    width: 100%;
+}
+
+/* Đặt ngang */
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid__row-nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.fl-left {
+    float: left;
+}
+
+.fl-right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.box {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.exam-box,
+.class-box {
+    border: 1px solid #ccc;
+    width: 350px;
+    border-radius: 5px;
+    padding: 25px;
+    margin: 20px;
+}
+
+.exam-box img,
+.class-box img {
+    width: 100%;
+    transition: transform 1s;
+}
+
+.exam-box img:hover,
+.class-box img:hover {
+    opacity: 0.5;
+    transform: scale(1.03);
+}
+
+.exam-box h3,
+.class-box h3  {
+    color: #000;
+}
+
+.exam-box span,
+.class-box span {
+    text-align: center;
+    background: #0487d9;
+    color: #fff;
+    padding: 5px;
+}
+
+.exam-box span:hover,
+.class-box span:hover {
+    background: #04B2D9;
+    color: #F2C84B;
+}
