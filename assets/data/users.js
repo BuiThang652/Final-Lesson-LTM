@@ -1,4 +1,4 @@
-users = [{
+var users = [{
         "username": "705102020",
         "password": "123",
         "fullname": "Bùi Đức Thắng"

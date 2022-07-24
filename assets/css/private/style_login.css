@@ -1,25 +1,11 @@
-.container-index {
-    position: relative;
-}
-
-.container-login.active-login {
-    opacity: 1;
-    z-index: 3;
-    pointer-events: auto;
-}
-
 .container-login {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     position: absolute;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
-    opacity: 0;
-    pointer-events: none;
     background: #50abe4;
 }
 
