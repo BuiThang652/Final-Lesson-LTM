@@ -9,7 +9,7 @@ btnElement.onclick = () => {
       users[i].password == inputpassword.value
     ) {
       window.localStorage.setItem("id", i);
-      window.location.href = "../../page.html"
+      window.location.href = "../page.html"
       break;
     }
   }
